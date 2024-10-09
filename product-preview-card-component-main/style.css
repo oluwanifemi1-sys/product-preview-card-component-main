@@ -1,0 +1,64 @@
+/* link */
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Layout */
+body {
+  background-color: hsl(30, 38%, 92%);
+  margin: 0;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.card {
+  margin-right: 100px;
+  margin-left: 100px;
+  background-color: white;
+  margin-top: 200px;
+  border-radius: 10px;
+  margin-bottom: 200px;
+  display: flex;
+  gap: 30px;
+}
+
+button {
+  padding: 10px 75px;
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.Product {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.price {
+  color: hsl(158, 36%, 37%);
+}
+
+/* Typography */
+.h1 {
+  font-family: "Fraunces", serif;
+}
+
+h3,
+p,
+button {
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  text-decoration: line-through;
+}
+
+/* Active-states */
+button:hover {
+  cursor: pointer;
+  background-color: darkgreen;
+}
+button:active {
+  cursor: pointer;
+  background-color: darkgreen;
+}
